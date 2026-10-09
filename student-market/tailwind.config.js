@@ -1,0 +1,22 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#4F46E5",
+        secondary: "#7C3AED",
+        accent: "#F59E0B",
+        charcoal: "#111827",
+      },
+      borderRadius: {
+        '3xl': '1.5rem',
+        '4xl': '2rem',
+      }
+    },
+  },
+  plugins: [],
+}
